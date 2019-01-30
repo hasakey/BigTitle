@@ -15,6 +15,13 @@
 		35949A0D22005F9E00837961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A0C22005F9E00837961 /* main.m */; };
 		35949A1722005F9E00837961 /* BigTitleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A1622005F9E00837961 /* BigTitleTests.m */; };
 		35949A2222005F9E00837961 /* BigTitleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A2122005F9E00837961 /* BigTitleUITests.m */; };
+		35949A352201344D00837961 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A342201344D00837961 /* BaseNavigationController.m */; };
+		35949A3C22013A2500837961 /* LargeTitleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A3B22013A2500837961 /* LargeTitleBaseViewController.m */; };
+		35949A3F22013A7900837961 /* TouchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A3E22013A7900837961 /* TouchModel.m */; };
+		35949A4522013BF400837961 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A4422013BF400837961 /* MyViewController.m */; };
+		35949A482201410900837961 /* NSString+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A472201410900837961 /* NSString+extend.m */; };
+		35949A4B220143CA00837961 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A49220143CA00837961 /* BaseViewController.m */; };
+		35949A512201476000837961 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35949A502201476000837961 /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		35949A1D22005F9E00837961 /* BigTitleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTitleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35949A2122005F9E00837961 /* BigTitleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigTitleUITests.m; sourceTree = "<group>"; };
 		35949A2322005F9E00837961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35949A332201344D00837961 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		35949A342201344D00837961 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		35949A392201398700837961 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		35949A3A22013A2500837961 /* LargeTitleBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargeTitleBaseViewController.h; sourceTree = "<group>"; };
+		35949A3B22013A2500837961 /* LargeTitleBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargeTitleBaseViewController.m; sourceTree = "<group>"; };
+		35949A3D22013A7900837961 /* TouchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchModel.h; sourceTree = "<group>"; };
+		35949A3E22013A7900837961 /* TouchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchModel.m; sourceTree = "<group>"; };
+		35949A4322013BF400837961 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		35949A4422013BF400837961 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		35949A462201410900837961 /* NSString+extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+extend.h"; sourceTree = "<group>"; };
+		35949A472201410900837961 /* NSString+extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+extend.m"; sourceTree = "<group>"; };
+		35949A49220143CA00837961 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		35949A4A220143CA00837961 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		35949A4F2201476000837961 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		35949A502201476000837961 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +132,21 @@
 				35949A0822005F9E00837961 /* LaunchScreen.storyboard */,
 				35949A0B22005F9E00837961 /* Info.plist */,
 				35949A0C22005F9E00837961 /* main.m */,
+				35949A332201344D00837961 /* BaseNavigationController.h */,
+				35949A342201344D00837961 /* BaseNavigationController.m */,
+				35949A4A220143CA00837961 /* BaseViewController.h */,
+				35949A49220143CA00837961 /* BaseViewController.m */,
+				35949A3A22013A2500837961 /* LargeTitleBaseViewController.h */,
+				35949A3B22013A2500837961 /* LargeTitleBaseViewController.m */,
+				35949A3D22013A7900837961 /* TouchModel.h */,
+				35949A3E22013A7900837961 /* TouchModel.m */,
+				35949A392201398700837961 /* Header.h */,
+				35949A4322013BF400837961 /* MyViewController.h */,
+				35949A4422013BF400837961 /* MyViewController.m */,
+				35949A462201410900837961 /* NSString+extend.h */,
+				35949A472201410900837961 /* NSString+extend.m */,
+				35949A4F2201476000837961 /* SecondVC.h */,
+				35949A502201476000837961 /* SecondVC.m */,
 			);
 			path = BigTitle;
 			sourceTree = "<group>";
@@ -262,9 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35949A352201344D00837961 /* BaseNavigationController.m in Sources */,
+				35949A4B220143CA00837961 /* BaseViewController.m in Sources */,
 				35949A0222005F9C00837961 /* ViewController.m in Sources */,
+				35949A4522013BF400837961 /* MyViewController.m in Sources */,
 				35949A0D22005F9E00837961 /* main.m in Sources */,
+				35949A3F22013A7900837961 /* TouchModel.m in Sources */,
+				35949A3C22013A2500837961 /* LargeTitleBaseViewController.m in Sources */,
 				359499FF22005F9C00837961 /* AppDelegate.m in Sources */,
+				35949A512201476000837961 /* SecondVC.m in Sources */,
+				35949A482201410900837961 /* NSString+extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,12 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUTAGX4S74;
 				INFOPLIST_FILE = BigTitle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = well.BigTitle;
+				PRODUCT_BUNDLE_IDENTIFIER = global.juscall.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUTAGX4S74;
 				INFOPLIST_FILE = BigTitle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = well.BigTitle;
+				PRODUCT_BUNDLE_IDENTIFIER = global.juscall.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
